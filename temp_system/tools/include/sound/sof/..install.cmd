@@ -1,0 +1,1 @@
+cmd_dest/include/sound/sof/.install := /bin/sh scripts/headers_install.sh dest/include/sound/sof ./include/uapi/sound/sof abi.h fw.h header.h tokens.h eq.h tone.h manifest.h trace.h; /bin/sh scripts/headers_install.sh dest/include/sound/sof ./include/generated/uapi/sound/sof ; touch dest/include/sound/sof/.install

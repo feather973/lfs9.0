@@ -1,0 +1,1 @@
+cmd_dest/include/linux/hsi/.install := /bin/sh scripts/headers_install.sh dest/include/linux/hsi ./include/uapi/linux/hsi hsi_char.h cs-protocol.h; /bin/sh scripts/headers_install.sh dest/include/linux/hsi ./include/generated/uapi/linux/hsi ; touch dest/include/linux/hsi/.install

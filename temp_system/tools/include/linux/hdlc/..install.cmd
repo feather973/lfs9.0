@@ -1,0 +1,1 @@
+cmd_dest/include/linux/hdlc/.install := /bin/sh scripts/headers_install.sh dest/include/linux/hdlc ./include/uapi/linux/hdlc ioctl.h; /bin/sh scripts/headers_install.sh dest/include/linux/hdlc ./include/generated/uapi/linux/hdlc ; touch dest/include/linux/hdlc/.install

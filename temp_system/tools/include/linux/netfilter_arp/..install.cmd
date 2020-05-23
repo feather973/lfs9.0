@@ -1,0 +1,1 @@
+cmd_dest/include/linux/netfilter_arp/.install := /bin/sh scripts/headers_install.sh dest/include/linux/netfilter_arp ./include/uapi/linux/netfilter_arp arp_tables.h arpt_mangle.h; /bin/sh scripts/headers_install.sh dest/include/linux/netfilter_arp ./include/generated/uapi/linux/netfilter_arp ; touch dest/include/linux/netfilter_arp/.install

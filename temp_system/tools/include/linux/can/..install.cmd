@@ -1,0 +1,1 @@
+cmd_dest/include/linux/can/.install := /bin/sh scripts/headers_install.sh dest/include/linux/can ./include/uapi/linux/can netlink.h vxcan.h gw.h raw.h bcm.h error.h; /bin/sh scripts/headers_install.sh dest/include/linux/can ./include/generated/uapi/linux/can ; touch dest/include/linux/can/.install

@@ -1,0 +1,1 @@
+cmd_dest/include/linux/usb/.install := /bin/sh scripts/headers_install.sh dest/include/linux/usb ./include/uapi/linux/usb g_printer.h midi.h ch9.h cdc.h audio.h tmc.h video.h functionfs.h g_uvc.h charger.h cdc-wdm.h gadgetfs.h ch11.h; /bin/sh scripts/headers_install.sh dest/include/linux/usb ./include/generated/uapi/linux/usb ; touch dest/include/linux/usb/.install

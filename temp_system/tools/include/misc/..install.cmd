@@ -1,0 +1,1 @@
+cmd_dest/include/misc/.install := /bin/sh scripts/headers_install.sh dest/include/misc ./include/uapi/misc cxl.h ocxl.h fastrpc.h habanalabs.h; /bin/sh scripts/headers_install.sh dest/include/misc ./include/generated/uapi/misc ; touch dest/include/misc/.install
