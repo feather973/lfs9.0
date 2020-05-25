@@ -9,21 +9,21 @@ how to build lfs temp system ( environment setting for lfsbuild user )
 
 : 
 
-sudo mkdir -v $LFS/tools
+    sudo mkdir -v $LFS/tools
 
-sudo ln -sv /mnt/lfs/tools/ /
+    sudo ln -sv /mnt/lfs/tools/ /
 
-sudo groupadd lfsbuild
+    sudo groupadd lfsbuild
 
-sudo useradd -s /bin/bash -g lfsbuild -m -k /dev/null lfsbuild
+    sudo useradd -s /bin/bash -g lfsbuild -m -k /dev/null lfsbuild
 
-sudo passwd lfsbuild
+    sudo passwd lfsbuild
 
-sudo chown -v lfsbuild $LFS/tools
+    sudo chown -v lfsbuild $LFS/tools
 
-sudo chown -v lfsbuild $LFS/sources
+    sudo chown -v lfsbuild $LFS/sources
 
-su - lfsbuild
+    su - lfsbuild
 
 cat > ~/.bash_profile << "EOF"
 
