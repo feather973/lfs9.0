@@ -34,6 +34,6 @@ cat > ~/.bashrc << "EOF"
     export LFS LC_ALL LFS_TGT PATH
     EOF
 
-3. how to chrot lfs temp system ( /dev/sdb1 ) with lfs build user ( lfsbuild )
+3. how to chrot lfs temp system ( /dev/sdb1 ), with lfs build user ( lfsbuild )
 
     sudo -S ./login_lfs.sh
