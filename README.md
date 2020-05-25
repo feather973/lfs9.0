@@ -35,5 +35,5 @@ cat > ~/.bashrc << "EOF"
     EOF
 
 3. how to chrot lfs temp system ( /dev/sdb1 ), with lfs build user ( lfsbuild )
-
-    sudo -S ./login_lfs.sh
+       
+        sudo -S ./login_lfs.sh
