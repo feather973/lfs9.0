@@ -8,7 +8,6 @@ lfs 9.0 + uefi usb boot
 2. how to build lfs temp system ( environment setting for lfsbuild user )
 
 
-
     sudo mkdir -v $LFS/tools
     sudo ln -sv /mnt/lfs/tools/ /
     sudo groupadd lfsbuild
@@ -34,6 +33,6 @@ cat > ~/.bashrc << "EOF"
     export LFS LC_ALL LFS_TGT PATH
     EOF
 
-3. how to chrot lfs temp system ( /dev/sdb1 ), with lfs build user ( lfsbuild )
-       
-        sudo -S ./login_lfs.sh
+3. how to chroot lfs temp system ( /dev/sdb1 ), with lfs build user ( lfsbuild )
+
+    sudo -S ./login_lfs.sh
