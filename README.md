@@ -3,11 +3,11 @@ lfs 9.0 + uefi usb boot
 
 1. how to meet host requirement in ubuntu 16.04 LTS
 
-: 
+
 
 2. how to build lfs temp system ( environment setting for lfsbuild user )
 
-: 
+
 
     sudo mkdir -v $LFS/tools
     sudo ln -sv /mnt/lfs/tools/ /
@@ -36,4 +36,4 @@ cat > ~/.bashrc << "EOF"
 
 3. how to chrot lfs temp system ( /dev/sdb1 ) with lfs build user ( lfsbuild )
 
-: sudo -S ./login_lfs.sh
+    sudo -S ./login_lfs.sh
