@@ -1,7 +1,13 @@
 # lfs9.0
 lfs 9.0 + uefi usb boot
 
+how to login
+    
+    enter-chroot.sh   :  change /dev/sdc1 to user usb device name
+    sudo -S ./login_lfs.sh
+
 directory
+
     archives/sources  :  lfs temporary system sources and patchs,  wget-list,  md5sums
     scripts           :  version-check.sh,  login_lfs.sh,  enter-chroot.sh
     manual            :  host_requirement,  user_setting,  virtualbox_setting
