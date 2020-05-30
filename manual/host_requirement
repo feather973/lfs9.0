@@ -1,0 +1,19 @@
+how to meet host system requirement in ubuntu 16.04.1
+
+/bin/sh
+    sudo dpkg-reconfigure dash
+        Use dash as the default system shell (/bin/sh)? ----> no    
+
+bison, yacc
+    sudo apt-get install bison
+    ls -l /usr/bin/yacc
+        /usr/bin/yacc -> /etc/alternatives/yacc
+    sudo rm /usr/bin/yacc
+    sudo rm /var/lib/dpkg/alternatives/yacc
+    sudo ln -s /usr/bin/bison /usr/bin/yacc
+
+gawk
+    sudo apt-get install gawk
+
+makeinfo (texinfo)
+    sudo apt-get install texinfo

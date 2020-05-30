@@ -1,0 +1,24 @@
+how to configure virtualbox environment in ubuntu 16.04.1
+
+Shared folder
+    In HOST PC, TYPE
+    sudo apt-get install virtualbox virtualbox-guest-additions-iso virtualbox-guest-utils
+    
+    IN HOST PC, OPEN VIRTUALBOX AND FIND THE BUTTON
+	Insert Guest Additions CD Images
+
+    IN HOST PC, SETTINGS - SHARED FOLDERS
+        FOLDER PATH : ~/lfs_shared
+    
+    IN TARGET UBUNTU, TYPE
+	sudo mount -t vboxsf lfs_shared ~/mountdir
+
+USB connection ( extension pack )
+    IN HOST PC, TYPE
+    sudo apt-get install virtualbox-ext-pack
+    sudo adduser $USER vboxuser
+
+    IN HOST PC, LOGOUT AND LOGIN
+
+    IN HOST PC, SETTINGS - USB - ADD NEW USB FILTERS .... ATTACHED TO THE HOST PC
+        SanDisk Cruzer Blade[0100]

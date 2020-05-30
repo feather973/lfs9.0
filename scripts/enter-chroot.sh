@@ -8,7 +8,8 @@ whoami
 # ROOT USER NEED TO KNOW LFS mount location
 export LFS=/mnt/lfs
 
-set -- "mount -v -t ext4 /dev/sdb1 $LFS" \
+# CHANGE /dev/sdc1 to your usb device name
+set -- "mount -v -t ext4 /dev/sdc1 $LFS" \
 "mount -v --bind /dev $LFS/dev" \
 "mount -vt devpts devpts $LFS/dev/pts -o gid=5,mode=620" \
 "mount -vt proc proc $LFS/proc" \
